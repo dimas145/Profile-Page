@@ -1,0 +1,39 @@
+body {
+    font-family: monospace;
+    color: #3c3939;
+    position: relative;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+}
+
+p {
+    font-size: 15px;
+}
+
+.profile_card {
+    width: 400px;
+    background: #00a2ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    padding: 16px;
+}
+
+.image {
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    width: 350px;
+    height: 350px;
+}
+
+.fade_out {
+    opacity: 0;
+}
+
+.fade_transition {
+    transition-property: opacity;
+    transition-duration: 2s;
+}
