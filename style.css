@@ -6,13 +6,18 @@ body {
     background-size: cover;
 }
 
+h1 {
+    color: #ffffff;
+}
+
 p {
     font-size: 15px;
+    color: #ffffff;
 }
 
 .profile_card {
     width: 400px;
-    background: #00a2ff;
+    background: #001933;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     position: absolute;
     left: 50%;
